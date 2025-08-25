@@ -3,5 +3,9 @@ public class Frame {
     Frame(byte[] d)
     { 
         this.data=d; 
-    } 
+    }
+
+    public byte[] getData() {
+        return data;
+    }
 }
